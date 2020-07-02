@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(143, 143, 143);
+}
+
+#main {
+    border: 1px solid rgb(128, 19, 19);
+}
+
+.conteudo {
+    background: rgb(41, 41, 124);
+    border: 1px solid rgb(102, 96, 96);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.conteudo-diff {
+    background: rgb(128, 19, 19);
+    border: 1px solid rgb(102, 96, 96);
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.clear {
+    clear: left;
+}
