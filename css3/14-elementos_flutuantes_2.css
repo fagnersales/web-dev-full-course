@@ -1,0 +1,31 @@
+/* 
+rgb(128, 19, 19)
+*/
+
+body {
+    background-color: rgb(143, 143, 143);
+}
+
+#principal {
+    width: 920px;
+    border: 1px solid rgb(128, 19, 19);
+}
+
+.noticia {
+    background: rgb(179, 178, 178);
+    padding: 5px;
+    margin: 8px;
+    width: 280px;
+    float: left;
+}
+
+.gallery-img {
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+.clear {
+    clear: both;
+}
