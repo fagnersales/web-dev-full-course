@@ -1,0 +1,45 @@
+body {
+    background: #034870;
+}
+
+.conteudo1 {
+    border: 1px solid rgb(128, 19, 19);
+    background: rgb(141, 96, 11);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.conteudo1 {
+    text-align: center;
+    border: 1px solid rgb(128, 19, 19);
+    background: rgb(141, 96, 11);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.conteudo2 {
+    text-align: center;
+    border: 1px solid rgb(128, 19, 19);
+    background: rgb(15, 97, 22);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
+}
+
+.conteudo3 {
+    text-align: center;
+    border: 1px solid rgb(128, 19, 19);
+    background: rgb(66, 55, 172);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 1;
+}
