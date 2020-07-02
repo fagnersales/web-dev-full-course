@@ -1,0 +1,30 @@
+body {
+    background: #034870;
+}
+
+#container {
+    background-color: rgb(143, 143, 143);
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    width: 300px;
+}
+
+.relative {
+    border: 1px solid rgb(128, 19, 19);
+    position: relative;
+    left: 265px;
+}
+
+.relative2 {
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
