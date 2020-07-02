@@ -8,7 +8,6 @@ body {
 
 #principal {
     width: 920px;
-    border: 1px solid rgb(128, 19, 19);
 }
 
 .noticia {
@@ -21,9 +20,12 @@ body {
 
 .gallery-img {
     width: 265px;
-    padding: 5px;
     float: left;
-    margin: 15px;
+    margin: 10px 18px 10px 18px;
+}
+
+.gallery-img img {
+    width: 265px;
 }
 
 .clear {
