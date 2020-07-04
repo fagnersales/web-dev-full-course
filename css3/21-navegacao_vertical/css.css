@@ -1,0 +1,45 @@
+body {
+    background: rgb(161, 161, 161);
+}
+
+#navegacao_vertical {
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navegacao_vertical li {
+    padding: 10px 20px;
+    background: url("../images/seta.png") no-repeat left center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-indent: 30px;
+    line-height: 40px;
+    background: #f9b600 url("../images/menu.png") no-repeat left bottom;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: #fff;
+}
+
+#home #navegacao-lateral .home a,
+#sobre #navegacao-lateral .sobre a,
+#servicos #navegacao-lateral .servicos a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff; 
+}
